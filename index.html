@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./kchart.js"></script>
+    <title>Example</title>
+</head>
+<body>
+
+    <canvas id="test-canv" width="300" height="300"></canvas>
+    <script>
+        // Animate a pie chart on the canvas
+        kchart.animate_pie_chart( '#test-canv', 400, 0, 100, [ [ 40, 'darkmagenta' ], [ 40, 'midnightblue' ], [ 20, 'pink' ] ] );
+    </script>
+
+</body>
+</html>
